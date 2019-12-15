@@ -1,0 +1,18 @@
+.Found{
+    width: 980px;
+    height: 377px;
+    padding: 40px;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
+.Found .img{
+    width: 270px;
+    height: 112px;
+    background: url('../../assets/icon/logo.png') 0px -405px;
+    margin: 50px auto;
+}
+.Found > h3{
+    text-align: center;
+    color: #999;
+}

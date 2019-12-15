@@ -1,0 +1,6 @@
+.Playlist .Hot_Con_list .list_item:nth-child(5n){
+    margin-left: 42px !important;
+}
+.Playlist .Hot_Con_list .list_item:nth-child(5n-4){
+    margin-left: 0 !important;
+}

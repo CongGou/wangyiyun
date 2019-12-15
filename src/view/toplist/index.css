@@ -1,0 +1,63 @@
+.TopLists{
+    display: flex;
+    width: 980px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
+/* 左边 */
+.ArrayList{
+    width: 240px;
+    height: 1860px;
+    border-right: 1px solid #ccc;
+    padding-top: 40px;
+    background: #F9F9F9;
+}
+.ArrayList>h2{
+    font-size: 14px;
+    font-weight: bold;
+    text-indent: 15px;
+}
+.ArrayList .ListItem{
+    width: 100%;
+    height: 248px;
+}
+.ArrayList .ListItem .Item{
+    width: 100%;
+    height: 62px;
+}
+.ArrayList .ListItem .Item>a{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0 10px 20px;
+    color: #999;
+    background: #F9F9F9;
+}
+.ArrayList .ListItem .Item>a:hover{
+    background: #E6E6E6;
+}
+.ArrayList .ListItem .Item>a>img{
+    width: 40px;
+    height: 40px;
+}
+.ArrayList .ListItem .Item>a>p{
+    position: absolute;
+    display: inline-block;
+    width: 155px;
+    height: 42px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.ListItem .Item>a>p>span:nth-child(1){
+    display: block;
+    margin-bottom: -10px;
+    color: #000;
+    font-weight: bold;
+}
+/* 右边 */
+.offer-listing{
+    width: 740px;
+    height: 3425px;
+    background: #fff;
+}

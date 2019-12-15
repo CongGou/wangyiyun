@@ -1,0 +1,126 @@
+.Users .ConWrap{
+    padding: 40px;
+    border-left: 1px solid #ccc;
+}
+.Users_head{
+    display: flex;
+    width: 100%;
+    height: 188px;
+    margin-bottom: 40px;
+}
+.Users_pic{
+    width: 186px;
+    height: 100%;
+    border: 1px solid #ccc;
+    margin-right: 40px;
+}
+.Users_pic >img{
+    width: 100%;
+    height: 100%;
+}
+.Users_dataset{
+    width: 670px;
+    height: 141px;
+}
+.Users_top{
+    width: 100%;
+    height: 49px;
+    border-bottom: 1px solid #ccc;
+}
+.Users_top>h2{
+    display: inline-block;
+    margin-right: 20px;
+}
+.Users_top .VIP{
+    display: inline-block;
+    width: 46px;
+    height: 19px;
+    margin-right: 10px;
+    background: url('../../assets/icon/icon2.png') 163px 347px;
+    border-radius: 25px;
+    border: 1px solid red;
+    text-indent: 30px;
+    line-height: 18px;
+    color: #e03a24;
+    font-size: 14px;
+    font-weight: bold;
+}
+.direct_icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url('../../assets/icon/icon.png') 132px -50px;
+    vertical-align: top;
+}
+.Users_top>button{
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: black;
+    font-size: 12px;
+    text-indent: 20px;
+    outline: none;
+}
+.direct{
+    background: url('../../assets/icon/button.png') 0 -846px;
+}
+.direct:hover{
+    background: url('../../assets/icon/button.png') 0 -811px;
+}
+.focus{
+    width: 72px !important;
+    color: #fff !important;
+    background: url('../../assets/icon/button.png') 0 -722px;
+    font-weight: bold;
+}
+.focus:hover{
+    width: 72px !important;
+    background: url('../../assets/icon/button.png') 70px -722px;
+}
+.information{
+    width: 670px;
+    height: 41px;
+}
+.information>ul{
+    width: 100%;
+    height: 100%;
+}
+.information>ul>li{
+    float: left;
+    width: 66px;
+    height: 41px;
+    margin-top: 10px;
+    text-align: left;
+}
+.information>ul>li:nth-child(1),.information>ul>li:nth-child(2){
+    border-right: 1px solid #ccc;
+}
+.information>ul>li:nth-child(2),.information>ul>li:nth-child(3){
+    margin-left: 20px;
+}
+.information .num{
+    display: inline-block;
+    width: 100%;
+    line-height: 10px;
+    font-size: 24px;
+}
+.information_font{
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+    text-indent: 3px;
+}
+.Introduced{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 12px;
+}
+/* 听歌榜单 4801*/
+
+.Users .Listening{
+    position: relative;
+    max-height: 516px ;
+    overflow: hidden;
+    margin-bottom: 50px;
+}

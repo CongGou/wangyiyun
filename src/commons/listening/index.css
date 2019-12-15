@@ -1,0 +1,61 @@
+.tab-separator-box>h1{
+    display: inline-block;
+    height: 22px;
+    color: #666;
+}
+.tab-separator-box>span{
+    position: relative;
+    margin-left: 20px;
+}
+.tab-separator-box>span::after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: -25px;
+    width: 20px;
+    height: 20px;
+    background: url('../../assets/icon/icon2.png') 0px -50px;
+}
+.ConWrap .HorizontailLine{
+    height: 2px;
+}
+.ConWrap .ant-list{
+    border: 1px solid #ccc;
+}
+.listening{
+    color: black;
+}
+.listening:hover{
+    color: #000;
+    text-decoration: underline;
+}
+.Rankings{
+    font-size: 16px;
+    font-weight: bold;
+}
+.anymore{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.anymore>a{
+    color: #000;
+    font-size: 12px;
+}
+.anymore>a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+.Users .ant-list-items{
+    border: 1px solid #E8E8E8;
+}
+.Users .ant-list-items .ant-list-item:nth-child(odd){
+    background: #F7F7F7 !important;
+}
+.Users .ant-list-items .ant-list-item:hover{
+    background: #E8E8E8;
+}
+.ListenerList .ConWrap .Listening .ant-list{
+    border: 1px solid #ccc !important;
+}

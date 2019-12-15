@@ -1,0 +1,12 @@
+.PlaylistHot{
+    position: relative;
+    width: 980px;
+    height: 1744px;
+    padding: 40px;
+    background: #fff;
+}
+.PlaylistHot_btn{
+    position: absolute;
+    left: 300px;
+    bottom: 90px;
+}

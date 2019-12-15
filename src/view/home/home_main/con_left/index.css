@@ -1,0 +1,324 @@
+.ConLeft{
+    width: 729px;
+    height: 1425px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 20px 20px 40px;
+}
+.Con_discover_box{
+    width: 100%;
+    height: 523px;
+}
+.Hot_Recommended{
+    position: relative;
+    height: 35px;
+    padding: 0 10px 0 30px;
+    border-bottom: 2px solid #9C2B1B;
+}
+.Hot::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: url('../../../../assets/icon/index.png') -228px -153px;
+}
+
+.Hot_Recommended>a{
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    color: #666666;
+    /* text-decoration: none;
+    list-style: none; */
+}
+.classification{
+    margin-left: 30px;
+}
+.Hot_Con{
+    width: 100%;
+    height: 468px;
+    margin-top: 20px;
+}
+.Hot_Con_list{
+    width: 100%;
+    height: 100%;
+}
+.Con_list_item{
+    position: relative;
+    float:left;
+    width: 140px;
+    height: 186px;
+    margin-bottom: 30px;
+}
+.Con_list_item>a{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #000;
+}
+.Con_list_item>a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+.list_item{
+    margin-left: 42px;
+}
+.list_item:nth-child(1){
+    margin-left: 0 ;
+}
+.list_item:nth-child(5){
+    margin-left: 0 ;
+}
+.Con_list_img{
+    width: 140px;
+    height: 140px;
+    background: url('https://s2.music.126.net/style/web2/img/coverall.png?d5bdd7fa4b9366dda672618459a2e415');
+}
+.ImgTop{
+    position: absolute;
+}
+.play{
+    position: absolute;
+    z-index: 80;
+    display: flex;
+    justify-content: space-between;
+    bottom: 45px;
+    left: 0;
+    width: 140px;
+    height: 26px;
+    padding: 0 10px;
+    border-top: 2px solid #000; 
+    background: rgba(0, 0, 0, .6);
+    font-size: 12px;
+}
+.Icon{
+    margin-top: 2px;
+    color: #fff !important;
+    font-size: 16px;
+}
+.play>span{
+    position: absolute;
+    line-height: 26px;
+    left: 30px;
+    color: #fff;
+}
+.Con_list_item>a>p{
+    color: #000;
+    margin: 0;
+}
+/* 新碟上架 */
+.album_box{
+    height: 263px !important;
+}
+.New_album{
+    position: relative;
+    height: 188px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+/* 轮播图*/
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+    color: #fff;
+    height: 186px !important;
+}
+.New_album .ant-carousel {
+    height: 186px !important;
+}
+.New_album .slick-slider{
+    height: 186px !important;
+}
+.New_album .slick-list{
+    height: 186px;
+}
+.New_album .slick-track{
+    height: 186px;
+}
+.album_con{
+    height: 186px;
+    padding-top: 28px;
+    background: #F5F5F5;
+}
+.New_album .Icon{
+    position: absolute;
+    top:34%;
+    font-weight: bold;
+    color: #878787 !important;
+    font-size: 18px;
+}
+.Icon_left{
+    left: 0;
+}
+.Icon_right{
+    right: 0;
+}
+.album_list{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0 !important;
+}
+.album_item{
+    display: inline-block;
+    position: relative;
+    width: 118px;
+    height: 150px;
+    margin-left: 11px ;
+    margin-bottom: -50px;
+    /* background: #9C2B1B; */
+}
+.item_img_box{
+    position: relative;
+    display: inline-block;
+    width: 115px;
+    height: 100px;
+}
+.item_img_box>img{
+    width: 100px;
+    height: 100px !important;
+}
+.albumImgBackground{
+    position: absolute;
+    top:0;
+    right: 0;
+    background: url('https://s2.music.126.net/style/web2/img/coverall.png?d5bdd7fa4b9366dda672618459a2e415')-36px -859px;
+}
+.album_item>p{
+    margin: 0;
+    width: 110px;
+    height: 18px;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+.album_item>p>a{
+    display: inline-block;
+    width: 115px;
+    height: 18px;
+    color: #000;
+}
+.fontColor{
+    color: #878787 !important;
+    font-size: 14px;
+}
+.album_item>p>a:hover{
+    text-decoration: underline;
+}
+
+
+/* 榜单 */
+.toplist_box{
+    height: 528px !important;
+}
+.toplist_box .Hot_Con{
+    display: flex;
+    height: 527px !important;
+}
+.TopList{
+    flex: 1;
+    width: 30%;
+    background: #F4F4F4;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    overflow: hidden;
+}
+.TopListHeard{
+    display: flex;
+    height: 120px;
+    padding: 20px;
+    background: #F4F4F4;
+}
+.TopListImg_box{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+.TopListImg_box>a{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.TopListImg_box>a>img{
+    width: 100%;
+    height: 100%;
+}
+.TopListImgTOp{
+    position: absolute;
+    background: url('https://s2.music.126.net/style/web2/img/coverall.png?d5bdd7fa4b9366dda672618459a2e415')0 -59px;
+}
+.TopListImg_right{
+    display: inline-block;
+    flex: 1;
+    width: 106px;
+    height: 80px;
+    padding: 10px 0 0 10px;
+    background: #F5F5F5;
+}
+.TopListImg_right>a{
+    display: inline-block;
+    height: 20px;
+    color: #000;
+    font-weight: blod;
+}
+.TopListImg_right>a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+.TopListIcon{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 0 10px;
+    cursor: pointer;
+}
+.TopListIcon:hover{
+    color: #999;
+}
+.ant-list-sm .ant-list-item {
+    padding-top: 7px !important;
+}
+.ant-list-item{
+    text-indent: 15px;
+}
+
+.ant-list-item:nth-child(odd){
+    background: #E8E8E8;
+}
+.ant-list-item>a{
+    color: #3b3b3b ;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.ant-list-item>a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+.view_deadline{
+    float: right;
+}
+.view_deadline>a{
+    width: 100%;
+    height: 100%;
+    color: #000;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.view_deadline>a:hover{
+    text-decoration: underline;
+    color: #000;
+}

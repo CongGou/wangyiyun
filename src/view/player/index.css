@@ -1,0 +1,191 @@
+.player_box{
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    user-select: none;
+    cursor: pointer;
+}
+.player_box:hover .player{
+    bottom: 0px;
+    transition: 1s;
+}
+
+.player{
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    bottom: -50px;
+    width: 100%;
+    height: 50px;
+    background: url('../../assets/icon/playbar.png') 0px -3px;
+}
+.mask{
+    position: absolute;
+    right: 0px;
+    width: 80px;
+    height: 60px;
+    top:-15px;
+    background: url('../../assets/icon/playbar.png') 170px -382px;
+}
+.mask>span{
+    display: inline-block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top:5px;
+    right: 30px;
+}
+.Lock{
+    background: url('../../assets/icon/playbar.png') -78px 233px;
+}
+.Lock:hover{
+    background: url('../../assets/icon/playbar.png') -78px 213px;
+}
+.Open{
+    background: url('../../assets/icon/playbar.png') -100px 233px;
+}
+.Open:hover{
+    background: url('../../assets/icon/playbar.png') -100px 213px;
+}
+
+.controller{
+    position: relative;
+    width: 980px;
+    height: 60px;
+    margin: 0 auto;
+}
+.MusicPlay_box{
+    width: 137px;
+    height: 50px;
+}
+.MusicPlay_box>span{
+    display: inline-block;
+    margin-right: 40px;
+}
+.playItem{
+    width: 28px;
+    height: 28px;
+    margin-top: 15px;
+}
+.prev{
+    background: url('../../assets/icon/playbar.png') 151px 484px;
+}
+.prev:hover{
+    background: url('../../assets/icon/playbar.png') 121px 484px;
+}
+.next{
+    background: url('../../assets/icon/playbar.png') 74px 484px;
+}
+.next:hover{
+    background: url('../../assets/icon/playbar.png') 44px 484px;
+}
+.MusicPlay_box .music_play{
+    position: absolute;
+    top: -2px;
+    left: 30px;
+    width: 36px;
+    height: 36px;
+    margin-top: 10px;
+    background: url('../../assets/icon/playbar.png') 153px 413px;
+}
+.MusicPlay_box .music_play:hover{
+    background: url('../../assets/icon/playbar.png') 113px 413px;
+}
+.MusicPlay_box .suspended{
+    background: url('../../assets/icon/playbar.png') 153px 452px;
+}
+.MusicPlay_box .suspended:hover{
+    position: absolute;
+    background: url('../../assets/icon/playbar.png') 113px 452px !important;
+}
+.music_pic{
+    position: absolute;
+    top:10px;
+    left: 150px;
+    width: 34px;
+    height: 35px;
+    background: url('../../assets/icon/playbar.png') 152px 537px;
+}
+.music_pic >a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.music_pic>a>img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 26px;
+}
+.progress_bar{
+    position: relative;
+    top:0 ;
+    left: 200px;
+    width: 493px;
+    height: 50px;
+    padding-top: 10px;
+    text-align: left;
+}
+.progress_bar_title{
+    position: absolute;
+    top: -60px;
+}
+.progress_bar>.progress_bar_title>a{
+    height: 20px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+}
+.progress_bar_title>a:nth-child(2){
+    color: #8D8D8D;
+}
+.progress_bar_title>a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.bar{
+    position: absolute;
+    top: -17px;
+    width: 493px;
+    height: 8px;
+    border-radius: 3px;
+}
+
+.totalBar{
+    background: #171717;
+    
+}
+.CacheBar{
+    width: 0%;
+    background: #535353;
+}
+.playBar{
+    width: 0%;
+    background: red;
+}
+.playBar_icon{
+    display: inline-block;
+    position: absolute;
+    top:-24px;
+    left: -2%;
+    width: 20px;
+    height: 20px;
+    background: url('../../assets/icon/iconall.png') -2px -280px;
+}
+.controls{
+    width: 100%;
+    opacity: 0 ;
+}
+.alltime{
+    position: absolute;
+    top: -44px;
+    right: -85px;
+    width: 71px;
+    height: 8px;
+    font-size: 12px;
+    color: #ccc;
+}

@@ -1,0 +1,169 @@
+.OffListing_header{
+    display: flex;
+    width: 100%;
+    height: 238px;
+    padding: 40px;
+}
+.OffListing_img{
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    padding: 4px;
+    border: 1px solid #ccc;
+}
+.OffListing_img>img{
+    width: 150px;
+    height: 150px;
+}
+.OffListing_title{
+    position: relative;
+    width: 500px;
+    height: 160px;
+    padding: 20px;
+}
+.OffListing_title>span{
+    position: absolute;
+    top: 50px;
+    font-size: 12px;
+}
+.OffListing_title>button{
+    position: relative;
+    top: 20px;
+    min-width: 90px;
+    height: 31px;
+    margin-right: 2px;
+    border-radius: 5px;
+    background: url('../../assets/icon/button2.png') 0px -634px;
+    color: #fff;
+    text-indent: 20px;
+    outline: none;
+}
+.OffListing_title .comments{
+    min-width: 30px !important;
+    font-size: 12px;
+    font-size: inherit;
+    letter-spacing: 0px !important;
+    background: url('../../assets/icon/button2.png') 0px -1466px;
+    color: #000;
+} 
+.OffListing_title .nameCollection{
+    background: url('../../assets/icon/button2.png') 0px -1064px !important;
+}
+.OffListing_title .Forwarding{
+    background: url('../../assets/icon/button2.png') 0px -1269px !important;
+}
+/* 榜单前100 */
+.GraphicalSongList{
+    position: relative;
+    width: 100%;
+    padding: 0 40px;
+}
+.SongList_box{
+    height: 30px;
+    border-bottom: 2px solid red;
+}
+.SongList_box>h2{
+    display: inline-block;
+    margin-right: 10px;
+}
+.SongList_box .SongListplay{
+    position: absolute;
+    display: inline-block;
+    width: 200px;
+    top: 10px;
+    right: 0;
+}
+.OffListing_Con{
+    width: 100%;
+    height: 3160px;
+    padding: 0 40px;
+    border: 1px solid #ccc;
+}
+.OffListing_Con_title{
+    height: 34px;
+    padding-left: 70px;
+    background:#F2F2F2;
+    border: 1px solid #ccc;
+}
+.OffListing_Con_title>span{
+    display: inline-block;
+    height: 100%;
+    line-height: 34px;
+    border-left: 1px solid #ccc;
+    text-indent: 10px;
+    font-weight: bold;
+}
+.subtitle{
+    width: 326px;
+}
+.LengthIt{
+    width: 90px;
+}
+.singer{
+    width: 170px;
+}
+.song100{
+    width: 100%;
+    height: 3125px;
+}
+.song100List{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+}
+.song100item{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+.song100item:nth-child(odd){
+    background:#F7F7F7;
+}
+.song100item>span{
+    padding-top: 5px;
+    white-space: nowrap;
+    overflow: hidden !important;
+}
+.song100item:nth-child(1),.song100item:nth-child(2),.song100item:nth-child(3){
+    height: 70px;
+}
+.song100item:nth-child(1)>span,.song100item:nth-child(2)>span,.song100item:nth-child(3)>span{
+    padding-top: 25px;
+    margin-left: 0;
+    text-align: center;
+}
+.song100item >img{
+    display: none;
+}
+.song100item:nth-child(1)>img,.song100item:nth-child(2)>img,.song100item:nth-child(3)>img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.song100Index{
+    width: 78px;
+    color: #BDBDBD;
+}
+.song100Title{
+    width: 240px;
+    text-align: left;
+    cursor: pointer;
+}
+.song100Title:hover{
+    text-decoration: underline;
+}
+.song100Title:nth-child(1){
+    text-align: center !important;
+}
+.song100Time{
+    width: 91px;
+    margin-left: 60px;
+}
+.song100Singer{
+    width: 173px;
+    text-align: left !important;
+    text-indent: 32px;
+}

@@ -1,0 +1,29 @@
+.nav{
+    display: inline-block;
+    position: absolute;
+}
+.ant-menu li{
+    height: 70px !important;
+    line-height: 70px;
+    background: #242424;
+}
+.ant-menu li a{
+    width: 100%;
+    height: 100%;
+}
+.ant-menu-item a{
+    color: white !important;
+    font-weight: bold;
+}
+.ant-menu-item-active{
+    background: #000000 !important;
+    border-bottom: transparent !important;
+    color: white !important;
+    font-weight: bold;
+}
+.ant-menu-item-selected{
+    border-bottom: transparent !important;
+    background: #000000 !important;
+    color: white !important;
+    font-weight: bold;
+}

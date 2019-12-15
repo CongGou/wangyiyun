@@ -1,0 +1,27 @@
+.search_box{
+    display: inline-block;
+    position: absolute;
+    width: 158px;
+    right: 65px;
+    height: 100%;
+}
+.Search{
+    width: 158px !important;
+}
+.ant-input{
+
+    height: 32px !important;
+    padding: 0 10px !important;
+    border-radius: 20px !important;
+    text-indent: 20px;
+    font-size: 12px !important;
+    font-weight: bold;
+}
+.ant-input-affix-wrapper .ant-input-suffix{
+    left: 0 !important;
+}
+.ant-input-suffix{
+    width: 20px;
+    margin-left: 10px;
+    font-size: 20px !important;
+}
